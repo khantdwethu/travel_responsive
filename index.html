@@ -1,0 +1,872 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Myanmar</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/logo/travel.png" type="image/x-icon"/>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+
+    <header>
+      <nav id="nav_container">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <div class="log_container">
+                <img src="img/logo/travel.png" class="logo" alt="" />
+                <p class="logo_name">Travel Myanmar</p>
+              </div>
+            </div>
+            <div class="col-5">
+              <div id="menu">
+                <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-2">
+              <div id="singin_button">
+                <a href="./sigin.html" class="btn btn_sigin">SignIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="hero_section">
+        <div id="slider_background">
+          <div class="row">
+              <div class="col-10">
+                <div class="slider_1">
+                    <img src="img/header/mandalay.png"class="first_layer1"alt="mandalay"/>
+                    <h2 class="second_layer1">MANDALAY</h2>
+                </div>
+              </div>
+              <div class="col-10">
+                <div class="slider_2">
+                    <img src="img/header/bagan.png"class="first_layer2"alt="mandalay"/>
+                    <h2 class="second_layer2">Bagan</h2>
+                  </div>
+              </div>
+              <div class="col-10">
+                  <div class="slider_3">
+                    <img src="img/header/ngapali.png"class="first_layer3"alt="mandalay"/>
+                    <h2 class="second_layer3">Ngapali</h2>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div id="search_box">
+                <div class="search_innerbox">
+                    <div class="search_btn_group">
+                        <a href="#" class="btn search_btn active">Flight</a>
+                        <a href="#" class="btn search_btn">Car</a>
+                        <a href="#" class="btn search_btn">Hotel</a>
+                    </div>
+                    <div class="sreach_info_container">
+                        <div class="input_control">
+                            <i class="fas fa-plane-departure input_icon"></i>
+                            <input type="text" name="current" id="serach_info_current" placeholder="Origin">
+                        </div>
+                        <div class="input_control">
+                            <i class="fas fa-plane-arrival input_icon"></i>
+                            <select name="destination" id="serach_info_distination">
+                                <option value="">Destination</option>
+                                <option value="">Mandalay</option>
+                                <option value="">TawnGyi</option>
+                                <option value="">PyinOoLwin</option>
+                                <option value="">Bla</option>
+                                <option value="">Bla</option>
+                                <option value="">Bla</option>
+                                <option value="">Bla</option>
+                                <option value="">Bla</option>
+                                <option value="">Bla</option>
+                            </select>
+                        </div>
+                        <div class="input_control">
+                         <input type="datetime-local" name="datetime" id="serach_info_datetime">
+                        </div>
+                        <input type="button" value="Search" class="btn search_btn_click">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT SECTCTION -->
+    <section id="about_section">
+        <div class="contectbox_lg">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2> <span>About</span>  Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quidem iusto, voluptatibus ut consectetur numquam.</p>
+                </div>
+                <div class="about_info">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="img/about/undraw_travel_together_re_kjf2.svg" alt="about" srcset="">
+                            </div>
+                            <div class="col-7">
+                                <div class="about_content">
+                                    <h3>Why Choose Us?</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aperiam sed cupiditate sequi blanditiis praesentium reprehenderit enim quam repudiandae, molestias inventore, eum mollitia, vitae voluptatum quidem iste incidunt quos fugiat hic sunt ex quaerat officiis.</p>
+                                    <div class="about_btn_group">
+                                        <a href="" class="btn about_btn">Contact</a>
+                                        <a href="" class="btn about_btn">Get Start</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Covid-19 -->
+    <section id="covid19_section">
+        <div class="contectbox_sm">
+            <div class="container">
+                <div class="covid_card">
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="covid_contect text-center">
+                                <h3>Get the Covid-19 travel info you .</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, nemo accusamus dignissimos consequatur repudiandae dolorem similique aliquid. Consequuntur, laborum saepe!</p>
+                                <a href="https://covid19.who.int/region/searo/country/mm" class="btn about_btn">View Map >>></a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <img src="img/covid/map.png" alt="map" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery_section">
+        <div class="contectbox_lg">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2>Our  <span>Gallery</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quidem iusto, voluptatibus ut consectetur numquam.</p>
+                </div>
+                <div id="gallery_container">
+                        <div class="row">
+                            <div class="col-10">
+                                <img src="img/gallery/bagan.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="img/header/ngapali.jpg" alt="" srcset="">
+                            </div>
+                            <div class="col-5">
+                                <img src="img/gallery/bagan.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3p"><img src="img/gallery/bagan.jpg" alt="" srcset=""></div>
+                            <div class="col-3p"><img src="img/header/ngapali.jpg" alt="" srcset=""></div>
+                            <div class="col-3p"><img src="img/gallery/bagan.jpg" alt="" srcset=""></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner  -->
+    <section id="banner_section">
+        <div class="contectbox_sm">
+            <div class="container">
+                <div class="banner_text text-center">
+                    <h2> <i class="fa fa-quote-left" aria-hidden="true"></i> To travel is to discover that everyone is wrong about other countries <i class="fa fa-quote-right" aria-hidden="true"></i> </h2>
+                <p>
+                    – Aldous Huxley -
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top -->
+    <section id="top_section">
+        <div class="contectbox_sm">
+            <div class="container">
+                <div class="top_heading">
+                    <h2>Top Destination of 2021 in Myanmar</h2>
+                    <a href="#">See All -></a>
+                </div>
+                <div class="top_list">
+                    <div class="row">
+                        <div class="col-5">
+                            <img src="img/gallery/bagan.jpg" alt="bagan">
+                            <div class="info_overlay">
+                                <div class="top_info">
+                                    <h3>Bagan</h3>
+                                    <hr>
+                                    <a href="#">Get Price ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <img src="img/header/ngapali.jpg" alt="ngapali" srcset="">
+                            <div class="info_overlay">
+                                <div class="top_info">
+                                    <h3>Bagan</h3>
+                                    <hr>
+                                    <a href="#">Get Price ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img src="img/header/mandalay.jpg" alt="mandalay" srcset="">
+                            <div class="info_overlay">
+                                <div class="top_info">
+                                    <h3>Bagan</h3>
+                                    <hr>
+                                    <a href="#">Get Price ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catogory -->
+    <section id="category_section">
+        <div class="contectbox_lg">
+            <div class="container">
+                <div class="category_heading">
+                    <div class="row">
+                        <div class="col-7">
+                            <h2>Choose Your Travel By Our Recommded Category</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dolores hic cumque dignissimos ex voluptas.</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="category_container">
+                            <select name="category" id="">
+                                <option value="">Travel With Family</option>
+                                <option value="">Relax</option>
+                                <option value="">Beach</option>
+                                <option value="">Hilling</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <div class="categorybox_list">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="videobanner_info">
+                                        <video autoplay muted loop id="video">
+                                            <source src="video/categroy/banner.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                                            <source src="video/categroy/banner.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                                        </video>
+                                        <div class="videobanner_overlay">
+                                            <h3>Travel With Family</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est omnis totam et reprehenderit quam. In.</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div id="travelcard_info">
+                                        <div class="travelcard_info_heading">
+                                            <h3> <i class="fas fa-city    "></i> Bagan</h3>
+                                            <p>
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus iste minus soluta tempore assumenda incidunt et similique sunt delectus illum? Voluptatibus, veritatis doloribus saepe maiores dolore consectetur temporibus asperiores explicabo?
+                                            </p>
+                                        </div>
+                                        <div id="userchoose_container">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="verhical_choose">
+                                                        <div class="row">
+                                                            <div class="col-5">
+                                                                <div class="vehical">
+                                                                    <input type="radio" name="Car" checkeda-hidden="true"></i>Car</span>
+                                                                    <h4>Price : <span>$15</span></h4>  
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-5">
+                                                                <div class="vehical">
+                                                                    <input type="radio" name="Car" id=""><span>
+                                                                        <i class="fa fa-plane" aria-hidden="true"></i>Flight</span>
+                                                                    <h4>Price : <span>$50</span></h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <a href="" class="btn btn_booking"> <i class="fa fa-bookmark" aria-hidden="true"></i> Book</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="travelcard_container">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <div class="travelcard active">
+                                                        <img src="img/header/ngapali.jpg" alt="travlecarad ngapali" srcset="">
+                                                        <div class="info_overlay">
+                                                            <div class="top_info">
+                                                                <h3>Bagan</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="travelcard">
+                                                        <img src="img/header/mandalay.jpg" alt="travlecarad mandalay" srcset="">
+                                                        <div class="info_overlay">
+                                                            <div class="top_info">
+                                                                <h3>Bagan</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="travelcard">
+                                                        <img src="img/header/bagan.jpg" alt="travlecarad bagan" srcset="">
+                                                        <div class="info_overlay">
+                                                            <div class="top_info">
+                                                                <h3>Bagan</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hotel  -->
+    <section id="hotel_section">
+        <div class="contectbox_sm">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2> <span>Booking Hotel</span> In Our Website</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, eius inventore ducimus in hic ipsum exercitationem ullam natus nulla quod.</p>
+                </div>
+                <div class="hotel_list">    
+
+                        <div class="hotel">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="img/gallery/bagan.jpg" alt="" srcset="">
+                                </div>
+                                <div class="col-7">
+                                    <div class="hotel_detail">
+                                        <h3>Hotel 1</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem ad, dolores ipsam molestias magni cumque repudiandae accusamus a vel, pariatur veritatis sunt? Saepe, cumque in? Fugit cum modi eaque similique.</p>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <h4>Rating</h4>
+                                                <div>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <h4><i class="fas fa-city     city"></i>Location</h4>
+                                                <h3>Mandalay</h3>
+                                            </div>
+                                            <div class="col-3">
+                                                <a href="" class="btn btn_booking"> <i class="fa fa-bookmark" aria-hidden="true"></i> Book</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="hotel">
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="hotel_detail">
+                                        <h3>Hotel 1</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem ad, dolores ipsam molestias magni cumque repudiandae accusamus a vel, pariatur veritatis sunt? Saepe, cumque in? Fugit cum modi eaque similique.</p>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <h4>Rating</h4>
+                                                <div>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <h4><i class="fas fa-city     city"></i>Location</h4>
+                                                <h3>Mandalay</h3>
+                                            </div>
+                                            <div class="col-3">
+                                                <a href="" class="btn btn_booking"> <i class="fa fa-bookmark" aria-hidden="true"></i> Book</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <img src="img/gallery/bagan.jpg" alt="" srcset="">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="hotel">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="img/gallery/bagan.jpg" alt="" srcset="">
+                                </div>
+                                <div class="col-7">
+                                    <div class="hotel_detail">
+                                        <h3>Hotel 1</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem ad, dolores ipsam molestias magni cumque repudiandae accusamus a vel, pariatur veritatis sunt? Saepe, cumque in? Fugit cum modi eaque similique.</p>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <h4>Rating</h4>
+                                                <div>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <h4><i class="fas fa-city     city"></i>Location</h4>
+                                                <h3>Mandalay</h3>
+                                            </div>
+                                            <div class="col-3">
+                                                <a href="" class="btn btn_booking"> <i class="fa fa-bookmark" aria-hidden="true"></i> Book</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="hotel">
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="hotel_detail">
+                                        <h3>Hotel 1</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem ad, dolores ipsam molestias magni cumque repudiandae accusamus a vel, pariatur veritatis sunt? Saepe, cumque in? Fugit cum modi eaque similique.</p>
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <h4>Rating</h4>
+                                                <div>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <h4><i class="fas fa-city city"></i>Location</h4>
+                                                <h3>Mandalay</h3>
+                                            </div>
+                                            <div class="col-3">
+                                                <a href="" class="btn btn_booking"> <i class="fa fa-bookmark" aria-hidden="true"></i> Book</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <img src="img/gallery/bagan.jpg" alt="" srcset="">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- package -->
+    <section id="package_section">
+        <div class="contectbox_sm">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2> <span>Travel Package</span> Program</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, eius inventore ducimus in hic ipsum exercitationem ullam natus nulla quod.</p>
+                </div>
+                <div id="package_container">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="package">
+                                <div class="package_top">
+                                    <img src="img/banner/pexels-rrinna-2071553.jpg" alt="" srcset="">
+                                </div>
+                                <div class="package_middle">
+                                    <h4>Package One (<span>$120</span>)</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nulla quo molestiae, laboriosam aperiam voluptatum!</p>
+                                </div>
+                                <div class="package_down">
+                                    <h5>Include :</h5>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="service1">
+                                                <h6><i class="fa fa-plane mright" aria-hidden="true"></i>Flight</span></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service2">
+                                                <h6><i class="fas fa-hotel mright"></i>Hotel</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service3">
+                                                <h6>Guide</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="package_btn">
+                                        <a href="#" class="btn btn_booking"> <i class="fa fa-bookmark" aria-hidden="true"></i> Booking</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="package">
+                                <div class="package_top">
+                                    <img src="img/banner/pexels-rrinna-2071553.jpg" alt="" srcset="">
+                                </div>
+                                <div class="package_middle">
+                                    <h4>Package Two (<span>$120</span>)</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nulla quo molestiae, laboriosam aperiam voluptatum!</p>
+                                </div>
+                                <div class="package_down">
+                                    <h5>Include :</h5>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="service1">
+                                                <h6><i class="fa fa-plane mright" aria-hidden="true"></i>Flight</span></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service2">
+                                                <h6><i class="fas fa-hotel mright"></i>Hotel</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service3">
+                                                <h6>Guide</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="package_btn">
+                                        <a href="#" class="btn btn_booking"> <i class="fa fa-bookmark" aria-hidden="true"></i> Booking</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="package">
+                                <div class="package_top">
+                                    <img src="img/banner/pexels-rrinna-2071553.jpg" alt="" srcset="">
+                                </div>
+                                <div class="package_middle">
+                                    <h4>Package Three (<span>$120</span>)</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nulla quo molestiae, laboriosam aperiam voluptatum!</p>
+                                </div>
+                                <div class="package_down">
+                                    <h5>Include :</h5>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="service1">
+                                                <h6><i class="fa fa-plane mright" aria-hidden="true"></i>Flight</span></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service2">
+                                                <h6><i class="fas fa-hotel mright"></i>Hotel</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service3">
+                                                <h6>Guide</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="package_btn">
+                                        <a href="#" class="btn btn_booking"> <i class="fa fa-bookmark" aria-hidden="true"></i> Booking</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="package">
+                                <div class="package_top">
+                                    <img src="img/banner/pexels-rrinna-2071553.jpg" alt="" srcset="">
+                                </div>
+                                <div class="package_middle">
+                                    <h4>Package Four (<span>$120</span>)</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nulla quo molestiae, laboriosam aperiam voluptatum!</p>
+                                </div>
+                                <div class="package_down">
+                                    <h5>Include :</h5>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="service1">
+                                                <h6><i class="fa fa-plane mright" aria-hidden="true"></i>Flight</span></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service2">
+                                                <h6><i class="fas fa-hotel mright"></i>Hotel</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service3">
+                                                <h6>Guide</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="package_btn">
+                                        <a href="#" class="btn btn_booking"> <i class="fa fa-bookmark" aria-hidden="true"></i> Booking</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="package">
+                                <div class="package_top">
+                                    <img src="img/banner/pexels-rrinna-2071553.jpg" alt="" srcset="">
+                                </div>
+                                <div class="package_middle">
+                                    <h4>Package Five (<span>$120</span>)</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nulla quo molestiae, laboriosam aperiam voluptatum!</p>
+                                </div>
+                                <div class="package_down">
+                                    <h5>Include :</h5>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="service1">
+                                                <h6><i class="fa fa-plane mright" aria-hidden="true"></i>Flight</span></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service2">
+                                                <h6><i class="fas fa-hotel mright"></i>Hotel</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service3">
+                                                <h6>Guide</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="package_btn">
+                                        <a href="#" class="btn btn_booking"> <i class="fa fa-bookmark" aria-hidden="true"></i> Booking</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="package">
+                                <div class="package_top">
+                                    <img src="img/banner/pexels-rrinna-2071553.jpg" alt="" srcset="">
+                                </div>
+                                <div class="package_middle">
+                                    <h4>Package Six (<span>$120</span>)</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nulla quo molestiae, laboriosam aperiam voluptatum!</p>
+                                </div>
+                                <div class="package_down">
+                                    <h5>Include :</h5>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="service1">
+                                                <h6><i class="fa fa-plane mright" aria-hidden="true"></i>Flight</span></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service2">
+                                                <h6><i class="fas fa-hotel mright"></i>Hotel</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="service3">
+                                                <h6>Guide</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="package_btn">
+                                        <a href="#" class="btn btn_booking"> <i class="fa fa-bookmark" aria-hidden="true"></i> Booking</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- review  -->
+    <section id="review_section">
+        <div class="contectbox_sm">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2>How <span>Customer Love U</span></h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, eius inventore ducimus in hic ipsum exercitationem ullam natus nulla quod.</p>
+                </div>
+                <div class="review">
+                    <div class="row">
+                        <div class="reviewcard">
+                            <div class="container">
+                                <div class="profile_container">
+                                    <img src="img/customer/profile1.jpg" alt="" class="profile">
+                                    <h3>Mg Mg</h3>
+                                </div>
+                                <hr>
+                                <div class="review_text">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus reiciendis eligendi veritatis et in nulla exercitationem, accusantium ea officiis veniam?
+                                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                </div>
+                                <hr>
+                                <div class="rating">
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewcard">
+                            <div class="container">
+                                <div class="profile_container">
+                                    <img src="img/customer/profile2.jpg" alt="" class="profile">
+                                    <h3>Kyaw Kyaw</h3>
+                                </div>
+                                <hr>
+                                <div class="review_text">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus reiciendis eligendi veritatis et in nulla exercitationem, accusantium ea officiis veniam?
+                                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                </div>
+                                <hr>
+                                <div class="rating">
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviewcard">
+                            <div class="container">
+                                <div class="profile_container">
+                                    <img src="img/customer/profile3.jpg" alt="" class="profile">
+                                    <h3>Aung Aung</h3>
+                                </div>
+                                <hr>
+                                <div class="review_text">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus reiciendis eligendi veritatis et in nulla exercitationem, accusantium ea officiis veniam?
+                                    <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                </div>
+                                <hr>
+                                <div class="rating">
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- contact  -->
+    <section id="contact_section">
+        <div class="contectbox_xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                       <div id="paycard_conatiner">
+                            <h3>
+                                You Can Pay With 
+                            </h3>
+                            <div class="paycard">
+                                <i class=  "fa fa-credit-card" aria-hidden="true"></i>
+                                <i class="fab fa-cc-visa" aria-hidden="true"></i>
+                                <i class="fab fa-cc-mastercard" aria-hidden="true"></i>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="contact_container">
+                            <h3>Contact Info</h3>
+                            <div class="card_info">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <a href="#">+9594532524</a>
+                            </div>
+                            <div class="card_info">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <a href="#">travelmyamar@travel.com</a>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-4">
+                        <h3>Contact Us on Facebook</h3>
+                        <div>
+                            <i class="fab fa-facebook" aria-hidden="true"></i>   
+                            <a href="#">travelMyanmar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h4>CopyRight @ 2021.All right reserved.</h4>
+    </footer>
+  </body>
+</html>
